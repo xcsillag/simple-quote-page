@@ -1,3 +1,9 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
 body {
   background: url('assets/freedom.jpg') no-repeat center center fixed;
   background-size: cover;
@@ -8,11 +14,21 @@ body {
 
 .wrapper {
   text-align: center;
-  margin-top: 4rem;
+  padding-top: 4rem;
   width: 90%;
   margin: 0 auto;
 }
 
 .quote {
   text-transform: uppercase;
+  font-family: Tahoma;
+  font-size: 30px;
+  margin: 0 200px;
+}
+
+.author {
+  font-family: Cambria;
+  font-size: 20px;
+  font-style: italic;
+  padding-top: 15px;
 }
